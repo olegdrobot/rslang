@@ -1,0 +1,140 @@
+.audio-start-page {
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+    background: url("../images/audio/music-1280.jpg") no-repeat;
+  	background-attachment: fixed;  
+  	background-size: cover;
+}
+.audio-btns-setting {
+	width: 100%;
+	height: 10%;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.btn-setting-audio-open {
+	margin-right: 5px;
+	outline:none;
+	border: none;
+	color: #5e6668;
+	box-shadow: none;
+}
+.btn-setting-audio-close {
+	margin-right: 5px;
+	border: none;
+	outline:none;
+	color: #5e6668;
+	box-shadow: none;
+	display: none;
+}
+.btn-close-audio {
+	color: #5e6668;
+	box-shadow: none;
+}
+.btn-setting-audio-open:focus,
+.btn-setting-audio-open:hover,
+.btn-setting-audio-close:focus,
+.btn-setting-audio-close:hover,
+.btn-close-audio:focus,
+.btn-close-audio:hover {
+	color: #252b31;
+	box-shadow: none;
+  	cursor: pointer;
+}
+.audio-setting {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+ 	right: 15%;
+    top: 15%;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 5px;
+    border: 1px solid #b2b2b2;
+}
+.audio-card-setting {
+	width: 95%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.select-page select{
+	overflow-y: scroll;
+}
+.select-page option {
+	font-size: 1rem;
+}
+.title-start-audio {
+	width: 100%;
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: #5e6464;
+}
+.btn-start-audio {
+	margin-top: 5px;
+	font-size: 20px;
+	background: #5e6668;
+	color: #fff;
+}
+.btn-start-audio:focus,
+.btn-start-audio:hover {
+	background: #252b31;
+	color: #fff;
+	box-shadow: none;
+  	cursor: pointer;
+}
+.text-start-audio {
+	text-align: center;
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.name-start-audio {
+		font-size: 30px;
+	}
+	.text-start-audio {
+		width: 80%;
+		font-size: 18px;
+	}
+}
+@media (min-width: 320px) and (max-width: 576px){
+	.audio-setting {
+		width: 285px;
+		right: 4%;
+    	top: 15%;
+	}
+	.title-start-audio h2 {
+		font-size: 29px;
+	}
+	.text-start-audio {
+		width: 90%;
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 320px){
+	.audio-setting {
+		width: 285px;
+		right: 4%;
+    	top: 15%;
+	}
+	.title-start-audio h2 {
+		font-size: 29px;
+	}
+	.text-start-audio {
+		width: 90%;
+		font-size: 17px;
+	}
+}

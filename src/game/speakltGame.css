@@ -1,0 +1,172 @@
+.speaklt-game-page {
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+	background: linear-gradient(45deg, #95bddc, #fbc6d0);
+}
+.speaklt-header {
+	width: 95%;
+	height:auto;
+	margin-top: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #fff;
+}
+.speaklt-time {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.speaklt-time button {
+	margin-top: 5px;
+	margin-right: 3px;
+}
+.speaklt-btn-header {
+	width: 25%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.btn-speaklt-openfullscreen,
+.btn-speaklt-closefullscreen,
+.btn-speaklt-close {
+	border: none;
+	outline: none;
+	color: #fff;
+	background: none;
+}
+.btn-speaklt-closefullscreen {
+	display: none;
+}
+.btn-speaklt-close:focus,
+.btn-speaklt-close:hover,
+.btn-speaklt-openfullscreen:focus,
+.btn-speaklt-openfullscreen:hover,
+.btn-speaklt-closefullscreen:focus,
+.btn-speaklt-closefullscreen:hover {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: none;
+	color: #eeeeec
+}
+.speak-round {
+	visibility: hidden;
+}
+.word-card {
+	background: grey;
+}
+.word-card-speaklt {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	border: 1px solid #fff;
+}
+.form-group{
+	width: 80%;
+	padding-bottom: 2%;
+	display: none;
+}
+.card-img-top, .card-img-word {
+	width: 250px;
+	height: 200px;
+}
+.card-img-top img,
+.card-img-word img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card-img-top{
+	margin-bottom: 3%;
+	display: none;
+}
+.card-text {
+	margin-top: 2%;
+}
+.word-card-body {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.input-text {
+	font-size: 1.3rem;
+}
+.speaklt-starts {
+	width: 95%;
+	height: 80px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.speaklt-start i{
+	color: red;
+}
+.speaklt-word {
+	width: 95%;
+	height: 300px;
+	overflow-y: scroll;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	border: 1px solid #5e6668;
+}
+.speaklt-word::-webkit-scrollbar {
+	width: 10px;
+}
+.speaklt-word::-webkit-scrollbar-track {
+	background: #fbfcfd;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+.speaklt-word::-webkit-scrollbar-thumb {
+	height: 30px;
+	background: #bec9ca;
+	border-radius: 8px;
+	border: 3px solid #fbfcfd;
+}
+.speaklt-word::-webkit-scrollbar-thumb:hover {
+	background: #93a7a6;
+}
+ .speaklt-word-card {
+ 	width: 200px;
+ 	height: 150px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transform: scale(0.9);
+    word-break: break-word;
+    text-align: center;
+    font-size: 1.25rem;
+    background: grey;
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.speaklt-time {
+		width: 55%;
+	} 
+}
+@media (min-width: 320px) and (max-width: 576px){ 
+	.speaklt-time {
+		width: 60%;
+	}
+}
+@media screen and (max-width: 320px){
+	.speaklt-time {
+		width: 60%;
+	} 
+}

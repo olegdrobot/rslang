@@ -1,0 +1,417 @@
+.main {
+	width: 100%;
+	min-height: 900px;
+	max-height: auto;
+	margin: 0 auto;
+	background: url('../images/ecooboi-london-1563632786.jpg');
+}
+.cards {
+	width: 100%;
+	height: 900px;
+	margin-left: 3px;
+	margin-bottom: 3%;
+	overflow-y: scroll;
+	border: 1px solid #bec9ca;
+}
+.cards::-webkit-scrollbar {
+	width: 10px;
+}
+.cards::-webkit-scrollbar-track {
+	background: #fbfcfd;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+.cards::-webkit-scrollbar-thumb {
+	height: 30px;
+	background: #bec9ca;
+	border-radius: 8px;
+	border: 3px solid #fbfcfd;
+}
+.cards::-webkit-scrollbar-thumb:hover {
+	background: #93a7a6;
+}
+.textbook{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #fff;
+}
+.icon-music {
+	width: 40px;
+	height: 30px;
+}
+.card-word {
+	display: flex;
+	flex-direction: row;
+	align-items:  center;
+	justify-content: space-between;
+	font-size: 16px;
+}
+.card-word-img {
+	width: 25%;
+	height: 90%;
+	margin: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.card-word-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card-body-word {
+	padding: 2%;
+}
+.color-word {
+	font-weight: 700;
+	color: #007a79;
+}
+.move-busket {
+	display: inline-flex;
+}
+.move {
+	width: 40px;
+	height: 40px;
+	background: url('../images/page/send-file.png') no-repeat;
+}
+.move:hover {
+	width: 40px;
+	height: 40px;
+	background: url('../images/page/send-file-hover.png') no-repeat;
+	cursor: pointer;
+}
+.busket {
+	width: 40px;
+	height: 40px;
+	background: url('../images/page/remove-busket.png') no-repeat;
+}
+.busket:hover {
+	width: 40px;
+	height: 40px;
+	background: url('../images/page/remove-busket-hover.png') no-repeat;
+	cursor: pointer;
+}
+.complex-word {
+	display: inline-flex;
+}
+.page-footnotes {
+	font-size: 14px;
+}
+.none {
+	width: 25px;
+	height: 25px;
+	background: url('../images/page/send-file-hover.png') no-repeat;
+	display: none;
+}
+.link {
+	width: 60%;
+	padding: 1%;
+}
+.musicUp {
+	width: 24px;
+	height: 24px;
+	background-image: url('../images/page/sound-page.png');
+}
+.musicDown{
+	width: 24px;
+	height: 24px;
+	background-image: url('../images/page/sound-mute.png');
+	display: none;
+}
+.titleSection {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-weight: 600;
+	font-size: 35px;
+	color: #5e6668; 
+}
+.iconSection {
+	width: 60px;
+	height: 50px;
+	background: url('../images/page/section-page.png') no-repeat;
+}
+.linkBtnGame {
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.openLinkGame {
+	width: 55px;
+	height: 55px;
+	background: url('../images/page/link-game.png') no-repeat;
+	cursor: pointer;
+}
+.btnLinkGame {
+	width: 90%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.btnLinkGame button {
+	width: 80%;
+	height: 35px;
+	padding: 1%;
+	border-radius: 5px;
+	background: #024f94;
+	color: #fff;
+	border: 1px solid #024f94;
+}
+.btnLinkGame button:hover {
+	background: #012e67;
+	color: #fff;
+	border: 1px solid #012e67;
+	cursor: pointer;
+}
+.windowLinkGame {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 99999;
+	background: #fff;
+	display: none;
+	border-radius: 3px;
+	border: 2px solid #b2b2b2;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.windowLinkGameHover {
+	width: 95%;
+	height: 90%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.closeLinkGame{
+	width: 30px;
+	height: 30px;
+	background: url('../images/page/close-page.png');
+}
+.closeLinkGame:hover {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url('../images/page/close-page-hover.png');
+}
+.openModal {
+	width: 50px;
+	height: 50px;
+	background: url('../images/page/settings-page.png') no-repeat;
+	cursor: pointer;
+}
+.formCustomization {
+	width: 270px;
+	height: 420px;
+	padding: 5px;
+	position: fixed;
+	z-index: 99999;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	border-radius: 3px;
+	border: 2px solid #5e6668;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.closeModal {
+	width: 30px;
+	height: 30px;
+	background: url('../images/page/close-page.png');
+}
+.closeModal:hover {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url('../images/page/close-page-hover.png');
+}
+.checked {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.checked-setting{
+	width: 100%;
+	height: 90%;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.setting-btn {
+	width: 80%;
+	height: 35px;
+	padding: 1%;
+	border-radius: 5px;
+	background: #024f94;
+	color: #fff;
+	border: 1px solid #024f94;
+}
+.setting-btn:hover,
+.setting-btn:focus {
+	background: #012e67;
+	color: #fff;
+	border: 1px solid #012e67;
+	cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.link {
+		width: 50%;
+	}
+	.linkBtnGame {
+		width: 35%;
+	}
+	.windowLinkGame {
+		width: 250px;
+		height: 250px;
+	}
+	.card-word-img {
+		width: 33%;
+	}
+	.move,
+	.move:hover,
+	.busket,
+	.busket:hover {
+		width: 50px;
+		height: 50px;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.link {
+		width: 40%;
+	}
+	.linkBtnGame {
+		width: 40%;
+	}
+	.windowLinkGame {
+		width: 250px;
+		height: 250px;
+	}
+	.titleSection {
+		font-size: 30px;
+	}
+	.iconSection {
+		width: 30px;
+		height: 30px;
+		background: url('../images/page/section-page-576.png') no-repeat;
+	}
+	.card-word {
+		flex-direction: column;
+	}
+	.card-word-img {
+		width: 60%;
+	}
+}
+@media (min-width: 320px) and (max-width: 575px){
+	.link {
+		width: 100%;
+	}
+	.linkBtnGame {
+		width: 100%;
+	}
+	.windowLinkGame {
+		width: 280px;
+		height: 280px;
+	}
+	.titleSection {
+		font-size: 30px;
+	}
+	.iconSection {
+		width: 30px;
+		height: 30px;
+		background: url('../images/page/section-page-576.png') no-repeat;
+	}
+	.card-word {
+		flex-direction: column;
+		padding: 5px;
+		font-size: 14px;
+	}
+	.card-word-img {
+		width: 90%;
+	}
+	.card-body-word {
+
+		padding-left: 3px;
+	}
+	.move,
+	.move:hover,
+	.busket,
+	.busket:hover {
+		width: 50px;
+		height: 50px;
+		padding: 6px;
+	}
+	.page-footnotes {
+		font-size: 13px;
+	}
+	.complex-word {
+		width: 70%;
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.move-busket {
+		display: flex;
+		flex-flow: row wrap;
+	}
+}
+@media screen and (max-width: 320px){
+	.link {
+		width: 100%;
+	}
+	.linkBtnGame {
+		width: 100%;
+	}
+	.windowLinkGame {
+		width: 280px;
+		height: 280px;
+	}
+	.titleSection {
+		font-size: 30px;
+	}
+	.iconSection {
+		width: 30px;
+		height: 30px;
+		background: url('../images/page/section-page-576.png') no-repeat;
+	}
+	.card-word {
+		flex-direction: column;
+		padding: 5px;
+		font-size: 14px;
+	}
+	.card-word-img {
+		width: 90%;
+	}
+	.card-body-word {
+
+		padding-left: 3px;
+	}
+	.move,
+	.move:hover,
+	.busket,
+	.busket:hover {
+		width: 50px;
+		height: 50px;
+		padding: 6px;
+	}
+	.page-footnotes {
+		font-size: 13px;
+	}
+	.complex-word {
+		width: 70%;
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.move-busket {
+		display: flex;
+		flex-flow: row wrap;
+	}
+}

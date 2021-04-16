@@ -1,0 +1,350 @@
+.team {
+	width: 100%;
+	min-height: 900px;
+	max-height: auto;
+	margin: 0 auto;
+	font-size: 18px;
+	background: url('../images/ecooboi-london-1563632786.jpg')
+}
+.container {
+	width: 100%;
+}
+.basic-start {
+	background: #fff;
+}
+.row {
+	justify-content: space-around;
+}
+.diviz {
+	width: 85%;
+	height: auto;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo {
+	width: 45%;
+	height: 100%;
+	object-fit: cover;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.logo-text {
+	width: 40%;
+	height: 100%;
+	float: right;
+	font-size: 18px;
+}
+.logo-text h1{
+	color: #ff0000;  
+}
+.logo-text p {
+	font-size: 20px;
+}
+.title-features,
+.title-video,
+.title-team{
+	width: 100%;
+	margin-top: 3%;
+	text-align: center;
+}
+.basic-games {
+	width: 35%;
+	height: 280px;
+	margin-top: 3%;
+	padding: 1%;
+	text-align: left;
+	background: #fff;
+	border: 2px solid #b2b2b2;
+}
+.overlay {
+ 	width: 150px;
+  	height: 150px;
+ 	position: relative; 
+  	top: -20px; 
+  	left: -20px;
+  	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+  	float: left;
+}
+.overlay img {
+	width: 100%;
+ 	height: 100%;
+ 	object-fit: cover;
+}
+.video {
+	margin: 2% 0 2% 0;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.title-team {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.team-member {
+	padding: 2%;
+	margin-top: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 2px solid #b2b2b2;
+}
+.foto {
+	width: 25%;
+	height: 250px;
+}
+.foto img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card-body {
+	width: 55%;
+}
+.card-text-developer {
+	color: #3d9690;
+}
+.icon {
+	width: 30%;
+	height: auto;
+	display: inline-flex;
+}
+.icon-github {
+	width: 40px;
+	height: 30px;
+	background: url(../images/github.svg);
+	background-repeat: no-repeat;
+}
+.icon-github-text a {
+	text-decoration: none;
+	color: #3d9690;
+}
+.icon-github-text a:hover{
+	color: #000;
+	cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.diviz {
+		width: 95%;
+	}
+	.logo-text h1{
+		font-size: 28px;
+	}
+	.logo-text p {
+		font-size: 18px;
+	}
+	.basic-games {
+		width: 43%;
+		height: 300px;
+	}
+	.overlay {
+ 		width: 135px;
+  		height: 135px;
+	}
+	.basic-games p {
+		font-size: 16px;
+	}
+	.foto {
+		width: 35%;
+		height: 280px;
+	}
+	.card-body {
+		width: 45%;
+	}
+	.team-member {
+		font-size: 16px;
+	}
+	.team-member h4{
+		font-size: 18px;
+	}
+	.team-member p{
+		font-size: 16px;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.diviz {
+		width: 90%;
+		flex-direction: column;
+		align-items: center;
+	}
+	.logo {
+		width: 90%;
+		height: 300px;
+	}
+	.logo-text {
+		width: 100%;
+		text-align: center;
+	}
+	.logo-text h1{
+		font-size: 25px;
+	}
+	.logo-text p {
+		font-size: 18px;
+	}
+	.title-features,
+	.title-video,
+	.title-team{
+		font-size: 23px;
+	}
+	.basic-games {
+		width: 90%;
+		height: 200px;
+		margin-top: 5%;
+	}
+	.overlay {
+ 		width: 130px;
+  		height: 130px;
+	}
+	.title-team p {
+		font-size: 18px;
+	}
+	.team-member {
+		padding: 0;
+		flex-direction: column;
+	}
+	.foto {
+		width: 100%;
+		height: 270px;
+	}
+	.card-body {
+		width: 100%;
+		font-size: 14px;
+	}
+	.card-body h4 {
+		font-size: 18px;
+	}
+	.card-body p{
+		font-size: 16px;
+	}
+}
+@media (min-width: 320px) and (max-width: 576px){
+	.diviz {
+		width: 90%;
+		flex-direction: column;
+		align-items: center;
+	}
+	.logo {
+		width: 90%;
+		height: 320px;
+	}
+	.logo-text {
+		width: 100%;
+		text-align: center;
+	}
+	.logo-text h1{
+		font-size: 23px;
+	}
+	.logo-text p {
+		font-size: 16px;
+	}
+	.title-features,
+	.title-video,
+	.title-team{
+		font-size: 18px;
+	}
+	.basic-games {
+		width: 85%;
+		height: 250px;
+		margin-top: 5%;
+	}
+	.basic-games p{
+		font-size: 14px;
+	}
+	.overlay {
+ 		width: 110px;
+  		height: 110px;
+  		top: -15px; 
+  		left: -15px;
+	}
+	.title-team p {
+		font-size: 16px;
+	}
+	.team-member {
+		padding: 0;
+		flex-direction: column;
+	}
+	.foto {
+		width: 100%;
+		height: 240px;
+	}
+	.card-body {
+		width: 100%;
+		font-size: 14px;
+	}
+	.card-body h4 {
+		font-size: 16px;
+	}
+	.card-body p{
+		font-size: 14px;
+	}
+	.icon {
+		width: 35%;
+	}
+}
+@media screen and (max-width: 320px){
+	.diviz {
+		width: 90%;
+		flex-direction: column;
+		align-items: center;
+	}
+	.logo {
+		width: 90%;
+		height: 320px;
+	}
+	.logo-text {
+		width: 100%;
+		text-align: center;
+	}
+	.logo-text h1{
+		font-size: 23px;
+	}
+	.logo-text p {
+		font-size: 16px;
+	}
+	.title-features,
+	.title-video,
+	.title-team{
+		font-size: 18px;
+	}
+	.basic-games {
+		width: 85%;
+		height: 250px;
+		margin-top: 5%;
+	}
+	.basic-games p{
+		font-size: 14px;
+	}
+	.overlay {
+ 		width: 110px;
+  		height: 110px;
+  		top: -15px; 
+  		left: -15px;
+	}
+	.title-team p {
+		font-size: 16px;
+	}
+	.team-member {
+		padding: 0;
+		flex-direction: column;
+	}
+	.foto {
+		width: 100%;
+		height: 240px;
+	}
+	.card-body {
+		width: 100%;
+		font-size: 14px;
+	}
+	.card-body h4 {
+		font-size: 16px;
+	}
+	.card-body p{
+		font-size: 14px;
+	}
+	.icon {
+		width: 35%;
+	}
+}

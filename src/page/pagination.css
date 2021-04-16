@@ -1,0 +1,14 @@
+.page-link-none {
+	visibility: hidden;
+}
+.page-link {
+	color: #000;
+}
+.page-link a:focus,
+.page-link a:hover,
+.page-link a:active {
+	border: none;
+	outline: none!important;
+  	cursor: pointer;
+	text-decoration: none;
+}

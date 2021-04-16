@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+.navbar {
+	width: 100%;
+	height: auto;
+    font-size: 17px;
+	background: #024f94;
+}
+.navTop {
+	justify-content: space-between;
+}
+.dropdown-menu {
+	background: #024f94;
+}
+nav .navbar-nav li a{
+ 	color: #fff  !important;
+ }
+nav .navbar-nav li a:hover{
+  color: #828c84!important;
+}
+nav .dropdown-menu a:hover {
+    cursor: pointer;
+	background:  #fff !important;
+}
+.name-start-btn {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameUser {
+    color: #fff;
+    font-size: 16px;
+}
+.btn-authorization {
+	width: 75%;
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+    align-items: center;
+}
+.btn-not-authorization {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+/*
+.btn-not-authorization,
+.not-authorization, .not-exit {
+	display: none;
+} */
+.modal-registration, .modal-enter {
+    width: 100%;
+    min-height: 1000px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    visibility: hidden;
+    background: rgba(41, 41, 41, 0.8);
+    z-index: 9999;
+    transition: all 0.4s ease-in-out;
+}
+.modal-form{
+    width: 90%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 6% 15% 4.8% 15%;
+}
+.modal-close-button {
+    width: 40px;
+    height: 40px;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+    background: url('../images/form/close-button-form.png') no-repeat;
+}
+.modal-close-button:hover {
+    cursor: pointer;
+    background: url('../images/form/close-button-form-hover.png') no-repeat;
+}
+.modal-window {
+    width: 95%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.message-enter{
+    color: #ff0000;
+    font-size: 18px;
+    visibility: hidden;
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .name-start-btn {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .nameUser {
+        font-size: 16px;
+    }
+    .btn-authorization {
+        width: 100%;
+        margin-top: 2px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .button-registration, .button-enter {
+        margin-top: 5px;
+    }
+    .btn-not-authorization {
+        width: 100%;
+        margin-top: 2px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .btn-not-authorization,
+    .not-authorization, .not-exit {
+        display: none;
+    }
+    .not-authorization, .not-exit {
+        margin-top: 5px;
+    }
+    .modal-registration, .modal-enter {
+        height: 2500px;
+    }
+    .modal-close-button {
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .modal-form{
+        width: 80%;
+        margin: 6% 5% 2% 5%;
+    }
+    .modal-window {
+        width: 100%;
+        margin-right: 0%;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .navbar {
+        font-size: 16px;
+    }
+    .name-start-btn {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .nameUser {
+        font-size: 15px;
+    }
+    .btn-authorization {
+        width: 100%;
+        margin-top: 2px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .button-registration, .button-enter {
+        margin-top: 5px;
+    }
+    .btn-not-authorization {
+        width: 100%;
+        margin-top: 2px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .btn-not-authorization,
+    .not-authorization, .not-exit {
+        display: none;
+    }
+    .not-authorization, .not-exit {
+        margin-top: 5px;
+    }
+    .modal-registration, .modal-enter {
+        height: 3140px;
+    }
+    .modal-close-button {
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .modal-form{
+        width: 100%;
+        margin: 5% 5% 2% 5%;
+    }
+    .modal-window {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .message-enter{
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 576px){
+    .navbar {
+        font-size: 16px;
+    }
+    .name-start-btn {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .nameUser {
+        font-size: 14px;
+    }
+    .btn-authorization {
+        width: 100%;
+        margin-top: 2px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .button-registration, .button-enter {
+        margin-top: 5px;
+    }
+    .btn-not-authorization {
+        width: 100%;
+        margin-top: 2px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .btn-not-authorization,
+    .not-authorization, .not-exit {
+        display: none;
+    }
+    .not-authorization, .not-exit {
+        margin-top: 5px;
+    }
+    .modal-registration, .modal-enter {
+        height: 3338px;
+    }
+    .modal-form {
+        width: 100%;
+        margin: 5% 5% 0% 5%;
+    }
+    .modal-close-button {
+        width: 35px;
+        height: 35px;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .modal-window {
+        width: 100%;
+        margin-right: 0%;
+        margin-top:0%;
+    }
+    .message-enter{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px){
+   .name-start-btn {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .nameUser {
+        font-size: 14px;
+    }
+    .btn-authorization {
+        width: 100%;
+        margin-top: 2px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .button-registration, .button-enter {
+        margin-top: 5px;
+    }
+    .btn-not-authorization {
+        width: 100%;
+        margin-top: 2px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .btn-not-authorization,
+    .not-authorization, .not-exit {
+        display: none;
+    }
+    .not-authorization, .not-exit {
+        margin-top: 5px;
+    }
+    .modal-registration, .modal-enter {
+        height: 3338px;
+    }
+    .modal-form{
+        width: 100%;
+        margin: 2.5% 5% 0% 5%;
+    }
+    .modal-close-button {
+        width: 35px;
+        height: 35px;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .modal-window {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .message-enter{
+        font-size: 15px;
+    } 
+}
