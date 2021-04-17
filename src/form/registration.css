@@ -1,0 +1,45 @@
+.form-registration {
+	width: 43%;
+	height: auto;
+	padding: 2%;
+	border-radius: 5px;
+	background: #fff;
+	border: 1px solid #b2b2b2;
+	font-size: 18px;
+}
+.footnotes{
+	text-align: center;
+	font-size: 12px;
+}
+.form-group-registration {
+	margin: 2%  1% 2% 1%;
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+	.form-registration {
+		width: 55%;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.form-registration {
+		width: 60%;
+	}	
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.form-registration {
+		width: 70%;
+		font-size: 16px;
+	}
+}
+@media (min-width: 320px) and (max-width: 576px){
+	.form-registration {
+		width: 95%;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 320px){
+	.form-registration {
+		width: 95%;
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,41 @@
+.form-enter {
+	width: 40%;
+	height: auto;
+	padding: 2%;
+	border-radius: 5px;
+	background: #fff;
+	border: 1px solid #b2b2b2;
+	font-size: 18px;
+}
+.form-group-enter {
+	margin: 2% 1% 2% 1%;
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+	.form-enter {
+		width: 55%;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.form-enter {
+		width: 60%;
+	}	
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.form-enter {
+		width: 70%;
+		font-size: 16px;
+	}
+}
+@media (min-width: 320px) and (max-width: 576px){
+	.form-enter {
+		width: 95%;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 320px){
+	.form-enter {
+		width: 95%;
+		font-size: 16px;
+	}
+}

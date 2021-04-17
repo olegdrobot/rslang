@@ -1,0 +1,240 @@
+.dictionary {
+	width: 100%;
+	min-height: 900px;
+	max-height: auto;
+	margin: 0 auto;
+	background: url('../images/ecooboi-london-1563632786.jpg');
+}
+.container {
+	width: 100%;
+}
+.diction {
+	background: #fff;
+}
+.row {
+	justify-content: space-around;
+}
+.recover {
+	width: 25px;
+	height: 25px;
+	background: url('../images/page/send-file.png') no-repeat;
+}
+.recover:hover {
+	width: 25px;
+	height: 25px;
+	background: url('../images/page/send-file-hover.png') no-repeat;
+	cursor: pointer;
+}
+.rightSection {
+	width: 25px;
+	height: 25px;
+	background: url('../images/page/right-button.png') no-repeat;
+}
+.rightSection:hover {
+	width: 25px;
+	height: 25px;
+	background: url('../images/page/right-button-hover.png') no-repeat;
+	cursor: pointer;
+}
+.leftSection {
+	width: 25px;
+	height: 25px;
+	background: url('../images/page/left-button.png') no-repeat;
+}
+.leftSection:hover {
+	width: 25px;
+	height: 25px;
+	background: url('../images/page/left-button-hover.png') no-repeat;
+	cursor: pointer;
+}
+.linkBtnGame {
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.openLinkGame {
+	width: 55px;
+	height: 55px;
+}
+.btnLinkGame {
+	width: 95%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.btnLinkGame button {
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+	background: #024f94;
+	border: 1px solid #024f94;
+}
+.btnLinkGame button:hover {
+	background: #012e67;
+	color: #fff;
+	border: 1px solid #012e67;
+	cursor: pointer;
+}
+.windowLinkGame {
+	width: 250px;
+	height: 250px;
+	padding: 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 99999;
+	background: #fff;
+	display: none;
+	border-radius: 3px;
+	border: 2px solid #b2b2b2;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.windowLinkGameHover {
+	width: 95%;
+	height: 90%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.closeLinkGame{
+	width: 30px;
+	height: 30px;
+	background: url('../images/page/close-page.png');
+}
+.closeLinkGame:hover{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url('../images/page/close-page-hover.png');
+}
+.openModal {
+	width: 50px;
+	height: 50px;
+	background: url('../images/page/settings-page.png') no-repeat;
+}
+.formCustomization {
+	width: 270px;
+	height: 420px;
+	padding: 5px;
+	position: fixed;
+	z-index: 99999;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	border-radius: 3px;
+	border: 2px solid #5e6668;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.closeModal {
+	width: 30px;
+	height: 30px;
+	background: url('../images/page/close-page.png');
+}
+.closeModal:hover {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url('../images/page/close-page-hover.png');
+}
+.checked {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.checked-setting{
+	width: 100%;
+	height: 90%;
+	padding: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.setting-btn {
+	width: 80%;
+	height: 35px;
+	padding: 1%;
+	border-radius: 5px;
+	background: #024f94;
+	color: #fff;
+	border: 1px solid #024f94;
+}
+.setting-btn:hover,
+.setting-btn:focus {
+	background: #012e67;
+	color: #fff;
+	border: 1px solid #012e67;
+	cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.link {
+		width: 50%;
+	}
+	.linkBtnGame {
+		width: 35%;
+	}
+	.windowLinkGame {
+		width: 250px;
+		height: 250px;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.link {
+		width: 40%;
+	}
+	.linkBtnGame {
+		width: 45%;
+	}
+	.windowLinkGame {
+		width: 250px;
+		height: 250px;
+	}
+	.titleSection {
+		font-size: 30px;
+	}
+	.iconSection {
+		width: 30px;
+		height: 30px;
+		background: url('../images/page/section-page-576.png') no-repeat;
+	}
+}
+@media (min-width: 320px) and (max-width: 575px){
+	.link {
+		width: 100%;
+	}
+	.linkBtnGame {
+		width: 100%;
+	}
+	.windowLinkGame {
+		width: 280px;
+		height: 280px;
+	}
+	.titleSection {
+		font-size: 30px;
+	}
+	.iconSection {
+		width: 30px;
+		height: 30px;
+		background: url('../images/page/section-page-576.png') no-repeat;
+	}
+	.card-word {
+		flex-direction: column;
+		padding: 5px;
+		font-size: 14px;
+	}
+	.card-word-img {
+		width: 90%;
+	}
+	.card-body-word {
+		padding-left: 3px;
+	}
+}
